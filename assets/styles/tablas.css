@@ -4,6 +4,8 @@ main{
 
 table{
     width: 90%;
+    border-collapse:collapse;
+    table-layout: fixed;
 }
 
 
@@ -12,3 +14,11 @@ span{
     font-weight: bold;
 }
 
+thead{
+    background-color: red;
+    color: white;
+}
+
+tbody, tfoot{
+    text-align: center;
+}
