@@ -18,8 +18,27 @@ h1{
 }
 
 .imagen1, .imagenlogo{
-    width: 200px;
-    height: 200px;
+    width: 50%;
+}
+
+.contenido1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido2{
+    background-color: brown;
+    width: 50%;
+}
+
+.contenido2, .imagenlogo{
+   padding: 3%;
+
+}
+
+.imagenlogo img{
+    
 }
 
 h2{
@@ -45,6 +64,7 @@ nav a{
     box-shadow: 6px 6px 0px 0px aqua;
 }
 
+/*
 img.logo{
     width: 20px;
     height: 10px;
@@ -62,6 +82,7 @@ img.jugador{
     top: 700px;
     bottom: 30px;
 }
+*/
 
 parrafo{
     background-color: aqua;
