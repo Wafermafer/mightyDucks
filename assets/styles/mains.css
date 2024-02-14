@@ -6,20 +6,25 @@
 
 .header__principal{
     width: 100%;
+    background-color: #1d32a8;
 }
 
 .header__principal__titulo, .header__principal__nav{
     display: inline-block;
-
 }
 
 .header__principal__titulo{
     width: 33%;
     padding-left: 20px;
+    
 }
 
 .header__principal__nav{
-    width: 70%;   
+    width: 100%;   
+    position: relative;
+    left: 18%;
+    
+    
 }
 
 .header__principal__nav a{
@@ -74,9 +79,10 @@
     font-size: 20px;
 }
 
-h2{
+.subtitulo{
     text-align: center;
     font-size: 35px;
+    background-color: #1d32a8;
 }
 
 .main__imagen1{
@@ -105,6 +111,11 @@ h2{
     object-position: 0 18%;
     position: relative;
     margin-top: 10px;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
 }
 
 .rules{
